@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/logo.png" alt="Nossa logo">
+        </div>
+    </header>
+
+    <h1 class="tire">Tire uma foto para o seu perfil!</h1>
+    <section>
+        <video id="camera" autoplay></video>
+
+        <div class="perfil">
+            <div id="foto"></div>
+            <h1>Nome</h1>
+            <h5>seilaoque@gmail.com</h3>
+        </div>
+    </section>
+
+    <div class="botoesFoto">
+        <button class="type1" onclick="abrirCamera()">Abrir câmera</button>
+        <button class="type1" onclick="tirarFoto()">Tirar Foto</button>
+        <button class="type1" onclick="fechar()">Fechar câmera</button>
+        <button class="type1" onclick="apagarFoto()">Apagar foto</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
